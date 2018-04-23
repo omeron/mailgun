@@ -138,6 +138,7 @@ public class Builder {
         return this;
     }
 
+    @SuppressWarnings("unchecked")
     public <T> Builder text(T value) {
         // null values add no text
         if (value == null) {

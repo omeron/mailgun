@@ -13,7 +13,6 @@ import java.util.Objects;
  * Can be instantiated using the constructor or a static factory method. In
  * any case the builder needs a configuration.
  */
-@SuppressWarnings("unused")
 public class MailBuilder {
     private final Configuration configuration;
     private Form form = new Form();

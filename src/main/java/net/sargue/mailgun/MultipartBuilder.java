@@ -20,7 +20,6 @@ import java.util.Map;
  * It is obtained from the main {@link MailBuilder} through the method
  * {@code multipart()}.
  */
-@SuppressWarnings("unused")
 public class MultipartBuilder {
     private static final String ATTACHMENT_NAME = "attachment";
 

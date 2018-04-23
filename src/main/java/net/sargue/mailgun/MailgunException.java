@@ -1,6 +1,8 @@
 package net.sargue.mailgun;
 
 public class MailgunException extends RuntimeException {
+    private static final long serialVersionUID = 1L;
+    
     public MailgunException() {
         // empty constructor
     }
